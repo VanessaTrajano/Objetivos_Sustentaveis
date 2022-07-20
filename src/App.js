@@ -63,43 +63,44 @@ export default function App() {
 
   return (
     <S.SiteContainer>
+      <S.Title>Objetivos Sustentáveis</S.Title>
       <S.SelectContainer>
         <S.GlobalStyle />
-        <S.Test onClick={() => { handleClick1() }}>
+        <S.EducaBox onClick={() => { handleClick1() }}>
           <div>
-            <h1>1</h1>
+            <h2>1</h2>
             <h2>Educação de Qualidade</h2>
           </div>
           <S.Img src={Livro} />
-        </S.Test>
-        <S.Test onClick={() => { handleClick2() }}>
+        </S.EducaBox>
+        <S.GeneroBox onClick={() => { handleClick2() }}>
           <div>
-            <h1>2</h1>
+            <h2>2</h2>
             <h2>Igualdade de Gênero</h2>
           </div>
           <S.Img src={IgualdadeGenero} />
-        </S.Test>
-        <S.Test onClick={() => { handleClick3() }}>
+        </S.GeneroBox>
+        <S.ConsumoBox onClick={() => { handleClick3() }}>
           <div>
-            <h1>3</h1>
+            <h2>3</h2>
             <h2>Consumo e Produção Responsáveis</h2>
           </div>
           <S.Img src={Recicle} />
-        </S.Test>
-        <S.Test onClick={() => { handleClick4() }}>
+        </S.ConsumoBox>
+        <S.VidaBox onClick={() => { handleClick4() }}>
           <div>
-            <h1>4</h1>
+            <h2>4</h2>
             <h2>Vida Terrestre</h2>
           </div>
           <S.Img src={Terra} />
-        </S.Test>
-        <S.Test onClick={() => { handleClick5() }}>
+        </S.VidaBox>
+        <S.EnergiaBox onClick={() => { handleClick5() }}>
           <div>
-            <h1>5</h1>
+            <h2>5</h2>
             <h2>Energia Limpa e Acessível</h2>
           </div>
           <S.Img src={EnergiaImage} />
-        </S.Test>
+        </S.EnergiaBox>
       </S.SelectContainer>
 
       {modal1 && <Educa />}
