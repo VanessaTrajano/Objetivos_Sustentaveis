@@ -46,7 +46,7 @@ export const Title = styled.h1`
     justify-content: center;
     text-decoration: overline;
 
-    @media(max-width: 360px){
+    @media(max-width: 430px){
         font-size: 5.2vh;
     }
 `
@@ -68,7 +68,7 @@ export const EducaBox = styled.div`
         justify-content: space-evenly;
 
 
-        @media(max-width: 350px){
+        @media(max-width: 430px){
             height: 100%;
             width:80%;
         }
@@ -87,9 +87,6 @@ export const TituloNum = styled.h2`
 
     @media(max-width:430px){
         font-size: 6vh;
-    }
-
-    @media(max-width:350px){
         width:20%;
     }
 `
@@ -100,9 +97,6 @@ export const TituloTexto = styled.h2`
 
     @media(max-width: 430px){
         width: 60%;
-    }
-
-    @media(max-width: 350px){
         width: 80%;
         display:flex;
         align-items:center;
@@ -127,7 +121,7 @@ export const GeneroBox = styled.div`
         justify-content: space-evenly;
 
 
-        @media(max-width: 350px){
+        @media(max-width: 430px){
             height: 100%;
             width:80%;
         }
@@ -157,7 +151,7 @@ export const ConsumoBox = styled.div`
         justify-content: space-evenly;
 
 
-        @media(max-width: 350px){
+        @media(max-width: 430px){
             height: 100%;
             width:80%;
         }
@@ -187,7 +181,7 @@ export const VidaBox = styled.div`
         justify-content: space-evenly;
 
 
-        @media(max-width: 350px){
+        @media(max-width: 430px){
             height: 100%;
             width:80%;
         }
@@ -217,7 +211,7 @@ export const EnergiaBox = styled.div`
         justify-content: space-evenly;
 
 
-        @media(max-width: 350px){
+        @media(max-width: 430px){
             height: 100%;
             width:80%;
         }
