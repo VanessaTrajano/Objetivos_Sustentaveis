@@ -68,36 +68,36 @@ export default function App() {
         <S.GlobalStyle />
         <S.EducaBox onClick={() => { handleClick1() }}>
           <div>
-            <h2>1</h2>
-            <h2>Educação de Qualidade</h2>
+            <S.TituloNum>1</S.TituloNum>
+            <S.TituloTexto>Educação de Qualidade</S.TituloTexto>
           </div>
           <S.Img src={Livro} />
         </S.EducaBox>
         <S.GeneroBox onClick={() => { handleClick2() }}>
           <div>
-            <h2>2</h2>
-            <h2>Igualdade de Gênero</h2>
+            <S.TituloNum>2</S.TituloNum>
+            <S.TituloTexto>Igualdade de Gênero</S.TituloTexto>
           </div>
           <S.Img src={IgualdadeGenero} />
         </S.GeneroBox>
         <S.ConsumoBox onClick={() => { handleClick3() }}>
           <div>
-            <h2>3</h2>
-            <h2>Consumo e Produção Responsáveis</h2>
+            <S.TituloNum>3</S.TituloNum>
+            <S.TituloTexto>Consumo e Produção Responsáveis</S.TituloTexto>
           </div>
           <S.Img src={Recicle} />
         </S.ConsumoBox>
         <S.VidaBox onClick={() => { handleClick4() }}>
           <div>
-            <h2>4</h2>
-            <h2>Vida Terrestre</h2>
+            <S.TituloNum>4</S.TituloNum>
+            <S.TituloTexto>Vida Terrestre</S.TituloTexto>
           </div>
           <S.Img src={Terra} />
         </S.VidaBox>
         <S.EnergiaBox onClick={() => { handleClick5() }}>
           <div>
-            <h2>5</h2>
-            <h2>Energia Limpa e Acessível</h2>
+            <S.TituloNum>5</S.TituloNum>
+            <S.TituloTexto>Energia Limpa e Acessível</S.TituloTexto>
           </div>
           <S.Img src={EnergiaImage} />
         </S.EnergiaBox>

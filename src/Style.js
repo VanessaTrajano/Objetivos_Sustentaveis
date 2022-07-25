@@ -24,7 +24,8 @@ export const SelectContainer = styled.div`
     justify-content: space-evenly;
     align-items:center;
     width: 100%;
-    height: 35vh;
+    height: 30vh;
+    font-size: 2vh;
     border: 2px solid blue;
 `
 
@@ -39,95 +40,130 @@ export const Title = styled.h1`
 `
 
 export const EducaBox = styled.div`
-    width: 18%;
+    width: 16%;
     height: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items:center;
     text-align: center;
     background-color: #c5192d;
+
+    div{
+        display: flex;
+        justify-content: space-evenly;
+    }
+`
+
+export const TituloNum = styled.h2`
+    font-size: 7vh;
+    width: 30%;
+`
+
+export const TituloTexto = styled.h2`
+    font-size: 3vh;
+    width: 70%;
 `
 
 export const GeneroBox = styled.div`
-    width: 18%;
+    width: 16%;
     height: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items:center;
     text-align: center;
     background-color: #ff3a21;
+    
+    div{
+        display: flex;
+        justify-content: space-evenly;
+    }
 `
 
 export const ConsumoBox = styled.div`
-    width: 18%;
+    width: 16%;
     height: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items:center;
     text-align: center;
     background-color: #bf8b2e;
+
+    div{
+        display: flex;
+        justify-content: space-evenly;
+    }
 `
 
 export const VidaBox = styled.div`
-    width: 18%;
+    width: 16%;
     height: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items:center;
     text-align: center;
     background-color: #56c02b;
+
+    div{
+        display: flex;
+        justify-content: space-evenly;
+    }
 `
 
 export const EnergiaBox = styled.div`
-    width: 18%;
+    width: 16%;
     height: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items:center;
     text-align: center;
     background-color: #fcc30b;
+
+    div{
+        display: flex;
+        justify-content: space-evenly;
+    }
 `
 
 export const Img = styled.img`
-    width: 30%;
+    width: 25%;
 `
 
 export const EducaContainer = styled.div`
     border: 2px solid plum;
     width: 100%;
-    height: 54vh;
+    height: 59vh;
     padding: 2%;
 `
 
 export const GeneroContainer = styled.div`
     border: 2px solid plum;
     width: 100%;
-    height: 54vh;
+    height: 59vh;
     padding: 2%;
 `
 
 export const ConsumoContainer = styled.div`
     border: 2px solid plum;
     width: 100%;
-    height: 54vh;
+    height: 59vh;
     padding: 2%;
 `
 
 export const VidaContainer = styled.div`
     border: 2px solid plum;
     width: 100%;
-    height: 54vh;
+    height: 59vh;
     padding: 2%;
 `
 
 export const EnergiaContainer = styled.div`
     border: 2px solid plum;
     width: 100%;
-    height: 54vh;
+    height: 59vh;
     padding: 2%;
 `
