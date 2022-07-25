@@ -26,7 +26,7 @@ export const SelectContainer = styled.div`
     height: 30vh;
     font-size: 2vh;
 
-    @media(max-width:430px){
+    @media(max-width:550px){
         height: 55vh;
         flex-direction: column;
         margin-bottom: 2vh;
@@ -46,7 +46,7 @@ export const Title = styled.h1`
     justify-content: center;
     text-decoration: overline;
 
-    @media(max-width: 430px){
+    @media(max-width: 550px){
         font-size: 5.2vh;
     }
 `
@@ -67,14 +67,24 @@ export const EducaBox = styled.div`
         display: flex;
         justify-content: space-evenly;
 
+        @media(max-width:838px){
+            flex-direction:column;
+            align-items:center;
+        }
 
-        @media(max-width: 430px){
+        @media(max-width: 550px){
+            flex-direction:row;
             height: 100%;
             width:80%;
         }
     }
 
-    @media(max-width:430px){
+    @media(max-width:838px){
+        width: 18%;
+        height:90%;
+    }
+
+    @media(max-width:550px){
         height: 15%;
         flex-direction: row;
         width: 90%;
@@ -85,7 +95,7 @@ export const TituloNum = styled.h2`
     font-size: 7vh;
     width: 30%;
 
-    @media(max-width:430px){
+    @media(max-width:550px){
         font-size: 6vh;
         width:20%;
     }
@@ -95,7 +105,7 @@ export const TituloTexto = styled.h2`
     font-size: 3vh;
     width: 70%;
 
-    @media(max-width: 430px){
+    @media(max-width: 550px){
         width: 60%;
         width: 80%;
         display:flex;
@@ -121,13 +131,24 @@ export const GeneroBox = styled.div`
         justify-content: space-evenly;
 
 
-        @media(max-width: 430px){
+        @media(max-width:838px){
+            flex-direction:column;
+            align-items:center;
+        }
+
+        @media(max-width: 550px){
+            flex-direction:row;
             height: 100%;
             width:80%;
         }
     }
 
-    @media(max-width:430px){
+    @media(max-width:838px){
+        width: 18%;
+        height:90%;
+    }
+
+    @media(max-width:550px){
         height: 15%;
         flex-direction: row;
         width: 90%;
@@ -151,13 +172,24 @@ export const ConsumoBox = styled.div`
         justify-content: space-evenly;
 
 
-        @media(max-width: 430px){
+        @media(max-width:838px){
+            flex-direction:column;
+            align-items:center;
+        }
+
+        @media(max-width: 550px){
+            flex-direction:row;
             height: 100%;
             width:80%;
         }
     }
 
-    @media(max-width:430px){
+    @media(max-width:838px){
+        width: 18%;
+        height:90%;
+    }
+
+    @media(max-width:550px){
         height: 15%;
         flex-direction: row;
         width: 90%;
@@ -181,13 +213,24 @@ export const VidaBox = styled.div`
         justify-content: space-evenly;
 
 
-        @media(max-width: 430px){
+        @media(max-width:838px){
+            flex-direction:column;
+            align-items:center;
+        }
+
+        @media(max-width: 550px){
+            flex-direction:row;
             height: 100%;
             width:80%;
         }
     }
 
-    @media(max-width:430px){
+    @media(max-width:838px){
+        width: 18%;
+        height:90%;
+    }
+
+    @media(max-width:550px){
         height: 15%;
         flex-direction: row;
         width: 90%;
@@ -211,13 +254,24 @@ export const EnergiaBox = styled.div`
         justify-content: space-evenly;
 
 
-        @media(max-width: 430px){
+        @media(max-width:838px){
+            flex-direction:column;
+            align-items:center;
+        }
+
+        @media(max-width: 550px){
+            flex-direction:row;
             height: 100%;
             width:80%;
         }
     }
 
-    @media(max-width:430px){
+    @media(max-width:838px){
+        width: 18%;
+        height:90%;
+    }
+
+    @media(max-width:550px){
         height: 15%;
         flex-direction: row;
         width: 90%;
@@ -227,14 +281,14 @@ export const EnergiaBox = styled.div`
 export const Img = styled.img`
     width: 25%;
 
-    @media(max-width:430px){
+    @media(max-width:550px){
         width: 8%;
     }
 `
 
 export const EducaContainer = styled.div`
     width: 100%;
-    height: 59vh;
+    height: fit-content;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -247,14 +301,14 @@ export const EducaContainer = styled.div`
         padding-right: 10%;
         border-top: 1vh solid  #c5192d;
 
-        @media(max-width:430px){
+        @media(max-width:550px){
             width: 90%;
             height: fit-content;
             margin-bottom: 2vh;
         }
     }
 
-    @media(max-width: 430px){
+    @media(max-width: 550px){
         height: fit-content;
         flex-direction: column;
     }
@@ -269,7 +323,7 @@ export const EducaText = styled.div`
     justify-content: space-evenly;
     text-align: justify;
 
-    @media(max-width:430px){
+    @media(max-width:550px){
         width: 80%;
         margin-bottom: 2vh;
         height: fit-content;
@@ -279,7 +333,7 @@ export const EducaText = styled.div`
 
 export const GeneroContainer = styled.div`
     width: 100%;
-    height: 59vh;
+    height: fit-content;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -292,14 +346,14 @@ export const GeneroContainer = styled.div`
         padding-right: 10%;
         border-top: 1vh solid  #ff3a21;
         
-        @media(max-width:430px){
+        @media(max-width:550px){
             width: 90%;
             height: fit-content;
             margin-bottom: 2vh;
         }
     }
 
-    @media(max-width: 430px){
+    @media(max-width: 550px){
         height: fit-content;
         flex-direction: column;
     }
@@ -314,7 +368,7 @@ export const GeneroText = styled.div`
     justify-content: space-evenly;
     text-align: justify;
     
-    @media(max-width:430px){
+    @media(max-width:550px){
         width: 80%;
         height: fit-content;
         font-size: 3.3vh;
@@ -324,7 +378,7 @@ export const GeneroText = styled.div`
 
 export const ConsumoContainer = styled.div`
     width: 100%;
-    height: 59vh;
+    height: fit-content;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -337,14 +391,14 @@ export const ConsumoContainer = styled.div`
         padding-right: 10%;
         border-top: 1vh solid  #bf8b2e;
 
-        @media(max-width:430px){
+        @media(max-width:550px){
             width: 90%;
             height: fit-content;
             margin-bottom: 2vh;
         }
     }
 
-    @media(max-width: 430px){
+    @media(max-width: 550px){
         height: fit-content;
         flex-direction: column;
     }
@@ -359,7 +413,7 @@ export const ConsumoText = styled.div`
     justify-content: space-evenly;
     text-align: justify;
     
-    @media(max-width:430px){
+    @media(max-width:550px){
         width: 80%;
         height: fit-content;
         font-size: 3.3vh;
@@ -369,7 +423,7 @@ export const ConsumoText = styled.div`
 
 export const VidaContainer = styled.div`
     width: 100%;
-    height: 59vh;
+    height: fit-content;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -382,14 +436,14 @@ export const VidaContainer = styled.div`
         padding-right: 10%;
         border-top: 1vh solid  #56c02b;
 
-        @media(max-width:430px){
+        @media(max-width:550px){
             width: 90%;
             height: fit-content;
             margin-bottom: 2vh;
         }
     }
 
-    @media(max-width: 430px){
+    @media(max-width: 550px){
         height: fit-content;
         flex-direction: column;
     }
@@ -404,7 +458,7 @@ export const VidaText = styled.div`
     justify-content: space-evenly;
     text-align: justify;
     
-    @media(max-width:430px){
+    @media(max-width:550px){
         width: 80%;
         height: fit-content;
         font-size: 3.3vh;
@@ -414,7 +468,7 @@ export const VidaText = styled.div`
 
 export const EnergiaContainer = styled.div`
     width: 100%;
-    height: 59vh;
+    height: fit-content;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -427,14 +481,14 @@ export const EnergiaContainer = styled.div`
         padding-right: 10%;
         border-top: 1vh solid  #fcc30b;
 
-        @media(max-width:430px){
+        @media(max-width:550px){
             width: 90%;
             height: fit-content;
             margin-bottom: 2vh;
         }
     }
 
-    @media(max-width: 430px){
+    @media(max-width: 550px){
         height: fit-content;
         flex-direction: column;
     }
@@ -449,7 +503,7 @@ export const EnergiaText = styled.div`
     justify-content: space-evenly;
     text-align: justify;
     
-    @media(max-width:430px){
+    @media(max-width:550px){
         width: 80%;
         height: fit-content;
         font-size: 3.3vh;
@@ -469,7 +523,7 @@ export const Intro = styled.div`
     height: fit-content;
 
 
-    @media(max-width:430px){
+    @media(max-width:550px){
         top: 70vh;
     }
 
