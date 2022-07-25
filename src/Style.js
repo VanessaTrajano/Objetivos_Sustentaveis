@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
 export const SiteContainer = styled.div`
     width: 100%;
     min-height: 100vh;
-    max-height: 200vh;
+    max-height: 300vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,6 +31,10 @@ export const SelectContainer = styled.div`
         flex-direction: column;
         margin-bottom: 2vh;
     }
+
+    @media(max-width:350px){
+        height: 60vh;
+    }
 `
 
 export const Title = styled.h1`
@@ -41,6 +45,10 @@ export const Title = styled.h1`
     align-items: center;
     justify-content: center;
     text-decoration: overline;
+
+    @media(max-width: 360px){
+        font-size: 5.2vh;
+    }
 `
 
 export const EducaBox = styled.div`
@@ -58,6 +66,12 @@ export const EducaBox = styled.div`
     div{
         display: flex;
         justify-content: space-evenly;
+
+
+        @media(max-width: 350px){
+            height: 100%;
+            width:80%;
+        }
     }
 
     @media(max-width:430px){
@@ -74,6 +88,10 @@ export const TituloNum = styled.h2`
     @media(max-width:430px){
         font-size: 6vh;
     }
+
+    @media(max-width:350px){
+        width:20%;
+    }
 `
 
 export const TituloTexto = styled.h2`
@@ -82,6 +100,13 @@ export const TituloTexto = styled.h2`
 
     @media(max-width: 430px){
         width: 60%;
+    }
+
+    @media(max-width: 350px){
+        width: 80%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
     }
 `
 
@@ -100,6 +125,12 @@ export const GeneroBox = styled.div`
     div{
         display: flex;
         justify-content: space-evenly;
+
+
+        @media(max-width: 350px){
+            height: 100%;
+            width:80%;
+        }
     }
 
     @media(max-width:430px){
@@ -124,6 +155,12 @@ export const ConsumoBox = styled.div`
     div{
         display: flex;
         justify-content: space-evenly;
+
+
+        @media(max-width: 350px){
+            height: 100%;
+            width:80%;
+        }
     }
 
     @media(max-width:430px){
@@ -148,6 +185,12 @@ export const VidaBox = styled.div`
     div{
         display: flex;
         justify-content: space-evenly;
+
+
+        @media(max-width: 350px){
+            height: 100%;
+            width:80%;
+        }
     }
 
     @media(max-width:430px){
@@ -172,6 +215,12 @@ export const EnergiaBox = styled.div`
     div{
         display: flex;
         justify-content: space-evenly;
+
+
+        @media(max-width: 350px){
+            height: 100%;
+            width:80%;
+        }
     }
 
     @media(max-width:430px){
@@ -423,14 +472,15 @@ export const Intro = styled.div`
     padding-left: 0.5vh;
     font-size: 4vh;
     width: 40%;
-    height: 11%;
+    height: fit-content;
 
-    @media(max-width:890px){
-        height:15%;
-    }
 
     @media(max-width:430px){
         top: 70vh;
-        height: 24%;
+    }
+
+    @media(max-width:350px){
+        top: 75vh;
+        margin-bottom: 2vh;
     }
 `
