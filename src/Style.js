@@ -15,7 +15,6 @@ export const SiteContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid green;
 `
 
 export const SelectContainer = styled.div`
@@ -26,17 +25,16 @@ export const SelectContainer = styled.div`
     width: 100%;
     height: 30vh;
     font-size: 2vh;
-    border: 2px solid blue;
 `
 
 export const Title = styled.h1`
-    border: 2px solid yellow;
     height: 10vh;
     width: 100%;
     font-size: 7vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: overline;
 `
 
 export const EducaBox = styled.div`
@@ -48,6 +46,8 @@ export const EducaBox = styled.div`
     align-items:center;
     text-align: center;
     background-color: #c5192d;
+    border-radius: 3vh;
+    cursor: pointer;
 
     div{
         display: flex;
@@ -74,6 +74,8 @@ export const GeneroBox = styled.div`
     align-items:center;
     text-align: center;
     background-color: #ff3a21;
+    border-radius: 3vh;
+    cursor: pointer;
     
     div{
         display: flex;
@@ -90,6 +92,8 @@ export const ConsumoBox = styled.div`
     align-items:center;
     text-align: center;
     background-color: #bf8b2e;
+    border-radius: 3vh;
+    cursor: pointer;
 
     div{
         display: flex;
@@ -106,6 +110,8 @@ export const VidaBox = styled.div`
     align-items:center;
     text-align: center;
     background-color: #56c02b;
+    border-radius: 3vh;
+    cursor: pointer;
 
     div{
         display: flex;
@@ -122,6 +128,8 @@ export const EnergiaBox = styled.div`
     align-items:center;
     text-align: center;
     background-color: #fcc30b;
+    border-radius: 3vh;
+    cursor: pointer;
 
     div{
         display: flex;
@@ -134,36 +142,148 @@ export const Img = styled.img`
 `
 
 export const EducaContainer = styled.div`
-    border: 2px solid plum;
     width: 100%;
     height: 59vh;
-    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+
+    h2{
+        width: 35%;
+        height: 70%;
+        font-size: 4vh;
+        padding-right: 10%;
+        border-top: 1vh solid  #c5192d;
+    }
+`
+
+export const EducaText = styled.div`
+    width: 50%;
+    height: 75%;
+    font-size: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: justify;
 `
 
 export const GeneroContainer = styled.div`
-    border: 2px solid plum;
     width: 100%;
     height: 59vh;
-    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+
+    h2{
+        width: 35%;
+        height: 70%;
+        font-size: 4vh;
+        padding-right: 10%;
+        border-top: 1vh solid  #ff3a21;
+    }
+`
+
+export const GeneroText = styled.div`
+    width: 50%;
+    height: 70%;
+    font-size: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: justify;
 `
 
 export const ConsumoContainer = styled.div`
-    border: 2px solid plum;
     width: 100%;
     height: 59vh;
-    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+
+    h2{
+        width: 35%;
+        height: 70%;
+        font-size: 4vh;
+        padding-right: 10%;
+        border-top: 1vh solid  #bf8b2e;
+    }
+`
+
+export const ConsumoText = styled.div`
+    width: 50%;
+    height: 65%;
+    font-size: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: justify;
 `
 
 export const VidaContainer = styled.div`
-    border: 2px solid plum;
     width: 100%;
     height: 59vh;
-    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+
+    h2{
+        width: 35%;
+        height: 70%;
+        font-size: 4vh;
+        padding-right: 10%;
+        border-top: 1vh solid  #56c02b;
+    }
+`
+
+export const VidaText = styled.div`
+    width: 50%;
+    height: 95%;
+    font-size: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: justify;
 `
 
 export const EnergiaContainer = styled.div`
-    border: 2px solid plum;
     width: 100%;
     height: 59vh;
-    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+
+    h2{
+        width: 35%;
+        height: 70%;
+        font-size: 4vh;
+        padding-right: 10%;
+        border-top: 1vh solid  #fcc30b;
+    }
+`
+
+export const EnergiaText = styled.div`
+    width: 50%;
+    height: 80%;
+    font-size: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: justify;
+`
+
+export const Intro = styled.div`
+    position: absolute;
+    top: 55vh;
+    z-index: -1;
+    border-bottom: 1vh solid black;
+    border-left: 0.5vh solid black;
+    padding-left: 0.5vh;
+    font-size: 4vh;
+    width: 40%;
+    height: 11%;
 `

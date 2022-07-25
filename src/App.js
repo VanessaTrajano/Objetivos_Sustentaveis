@@ -102,6 +102,10 @@ export default function App() {
           <S.Img src={EnergiaImage} />
         </S.EnergiaBox>
       </S.SelectContainer>
+      
+      <S.Intro>
+        <p>Aqui você poderá ver alguns objetivos sustentáveis escritos com base nos objetivos da ONU.</p>
+      </S.Intro>
 
       {modal1 && <Educa />}
       {modal2 && <Genero />}
